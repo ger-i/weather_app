@@ -15,7 +15,7 @@ Egy modern, responsive időjárás alkalmazás React-tel és Tailwind CSS-sel.
 
 ## 🚀 Élő Demo
 
-[Nézd meg élőben a Netlify-on](https://your-app-name.netlify.app)
+[Nézd meg élőben a Netlify-on](https://idojarasapp.netlify.app/)
 
 ## 🛠️ Technológiák
 
