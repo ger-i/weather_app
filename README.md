@@ -2,7 +2,7 @@
 
 Egy modern, responsive időjárás alkalmazás React-tel és Tailwind CSS-sel.
 
-![Weather App Screenshot](https://via.placeholder.com/800x400?text=Weather+App+Screenshot)
+## 📸 Screenshot
 
 ![alt text](image.png)
 
@@ -84,27 +84,7 @@ npm run build
 
 A build fájlok a `dist` mappába kerülnek.
 
-## 🌐 Deploy
-
-### Netlify-ra deploy
-
-1. Push-old a kódot GitHub-ra
-2. Kapcsold össze a Netlify-t a GitHub repository-val
-3. Állítsd be a build parancsot: `npm run build`
-4. Állítsd be a publish directory-t: `dist`
-5. Add hozzá az environment változókat a Netlify dashboard-on
-
-## 📸 Screenshots
-
-### Desktop nézet
-![Desktop View](https://via.placeholder.com/800x400?text=Desktop+View)
-
-### Mobil nézet
-![Mobile View](https://via.placeholder.com/400x800?text=Mobile+View)
-
-## 🤝 Közreműködés
-
-Pull request-ek és issue-k szívesen fogadottak!
+## 🌐 Netlify-ra deploy
 
 ## 📄 Licensz
 
@@ -114,9 +94,3 @@ MIT License
 
 **Geri**
 - GitHub: [@ger-i](https://github.com/ger-i)
-
-## 🙏 Köszönetnyilvánítás
-
-- [OpenWeatherMap](https://openweathermap.org/) - Időjárás API
-- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
-- [Vite](https://vitejs.dev/) - Build tool
