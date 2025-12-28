@@ -4,7 +4,7 @@ Egy modern, responsive időjárás alkalmazás React-tel és Tailwind CSS-sel.
 
 ## 📸 Screenshot
 
-![alt text](image1.png)
+![alt text](image.png)
 
 ## 🌟 Funkciók
 
