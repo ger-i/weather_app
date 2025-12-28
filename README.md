@@ -4,6 +4,8 @@ Egy modern, responsive időjárás alkalmazás React-tel és Tailwind CSS-sel.
 
 ![Weather App Screenshot](https://via.placeholder.com/800x400?text=Weather+App+Screenshot)
 
+![alt text](image.png)
+
 ## 🌟 Funkciók
 
 - 🔍 Város keresés
