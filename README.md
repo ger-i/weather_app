@@ -1,16 +1,120 @@
-# React + Vite
+# ☀️ Időjárás Alkalmazás
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Egy modern, responsive időjárás alkalmazás React-tel és Tailwind CSS-sel.
 
-Currently, two official plugins are available:
+![Weather App Screenshot](https://via.placeholder.com/800x400?text=Weather+App+Screenshot)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Funkciók
 
-## React Compiler
+- 🔍 Város keresés
+- 🌡️ Aktuális időjárás megjelenítése
+- 📅 5 napos előrejelzés
+- 📱 Teljesen responsive design (mobil, tablet, desktop)
+- 🎨 Modern UI Tailwind CSS-sel
+- ⚡ Gyors betöltés Vite-tal
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Élő Demo
 
-## Expanding the ESLint configuration
+[Nézd meg élőben a Netlify-on](https://your-app-name.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technológiák
+
+- **React** - UI library
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **OpenWeatherMap API** - Időjárás adatok
+- **Netlify** - Hosting
+
+## 📦 Telepítés
+
+### Előfeltételek
+
+- Node.js (v20.x vagy újabb)
+- npm vagy yarn
+
+### Lépések
+
+1. **Klónozd a repository-t:**
+```bash
+git clone https://github.com/ger-i/weather_app.git
+cd weather_app
+```
+
+2. **Telepítsd a függőségeket:**
+```bash
+npm install
+```
+
+3. **Környezeti változók beállítása:**
+
+Hozz létre egy `.env` fájlt a projekt gyökerében:
+```env
+VITE_WEATHER_API_KEY=your_openweathermap_api_key
+```
+
+4. **Indítsd el a dev szervert:**
+```bash
+npm run dev
+```
+
+Az alkalmazás elérhető lesz a `http://localhost:5173` címen.
+
+## 🔑 API Kulcs beszerzése
+
+1. Menj az [OpenWeatherMap](https://openweathermap.org/) oldalra
+2. Regisztrálj ingyen
+3. Menj a **API Keys** menüponthoz
+4. Másold ki az API kulcsot
+5. Add hozzá a `.env` fájlhoz
+
+## 📱 Használat
+
+1. Írd be a keresett város nevét
+2. Kattints a "Keresés" gombra
+3. Nézd meg az aktuális időjárást és az 5 napos előrejelzést
+
+## 🏗️ Build
+
+Production build készítése:
+```bash
+npm run build
+```
+
+A build fájlok a `dist` mappába kerülnek.
+
+## 🌐 Deploy
+
+### Netlify-ra deploy
+
+1. Push-old a kódot GitHub-ra
+2. Kapcsold össze a Netlify-t a GitHub repository-val
+3. Állítsd be a build parancsot: `npm run build`
+4. Állítsd be a publish directory-t: `dist`
+5. Add hozzá az environment változókat a Netlify dashboard-on
+
+## 📸 Screenshots
+
+### Desktop nézet
+![Desktop View](https://via.placeholder.com/800x400?text=Desktop+View)
+
+### Mobil nézet
+![Mobile View](https://via.placeholder.com/400x800?text=Mobile+View)
+
+## 🤝 Közreműködés
+
+Pull request-ek és issue-k szívesen fogadottak!
+
+## 📄 Licensz
+
+MIT License
+
+## 👨‍💻 Szerző
+
+**Geri**
+- GitHub: [@ger-i](https://github.com/ger-i)
+
+## 🙏 Köszönetnyilvánítás
+
+- [OpenWeatherMap](https://openweathermap.org/) - Időjárás API
+- [Tailwind CSS](https://tailwindcss.com/) - CSS framework
+- [Vite](https://vitejs.dev/) - Build tool
